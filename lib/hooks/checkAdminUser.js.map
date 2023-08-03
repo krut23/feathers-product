@@ -1,0 +1,1 @@
+{"version":3,"file":"checkAdminUser.js","sourceRoot":"","sources":["../../src/hooks/checkAdminUser.ts"],"names":[],"mappings":";;;AAAA,+CAA8C;AAGvC,MAAM,SAAS,GAAG,CAAC,OAAoB,EAAQ,EAAE;IACtD,MAAM,EAAE,IAAI,EAAE,GAAG,OAAO,CAAC,MAAM,CAAA;IAC/B,IAAI,CAAC,IAAI,IAAI,IAAI,CAAC,IAAI,KAAK,OAAO,EAAE;QAClC,MAAM,IAAI,kBAAS,CAAC,gEAAgE,CAAC,CAAA;KACtF;AACH,CAAC,CAAA;AALY,QAAA,SAAS,aAKrB"}

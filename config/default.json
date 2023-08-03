@@ -1,0 +1,37 @@
+{
+  "host": "localhost",
+  "port": 3032,
+  "public": "./public/",
+  "origins": [
+    "http://localhost:3032"
+  ],
+  "paginate": {
+    "default": 10,
+    "max": 50
+  },
+  "postgresql": {
+    "client": "pg",
+    "connection": "postgres://postgres:123456789@localhost:5432/feathers-product"
+  },
+  "authentication": {
+    "entity": "user",
+    "service": "users",
+    "secret": "hDc3xprP44/3KOKtg4pJIAjz9nnA3M01",
+    "authStrategies": [
+      "jwt",
+      "local"
+    ],
+    "jwtOptions": {
+      "header": {
+        "typ": "access"
+      },
+      "audience": "https://yourdomain.com",
+      "algorithm": "HS256",
+      "expiresIn": "1d"
+    },
+    "local": {
+      "usernameField": "email",
+      "passwordField": "password"
+    }
+  }
+}
